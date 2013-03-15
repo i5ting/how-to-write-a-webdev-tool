@@ -29,6 +29,8 @@
 参见https://github.com/robbiehanson/CocoaLumberjack/wiki/GettingStarted
 
 
+![示例](pic_1.png)
+
 
 
 ### 修改AppDelegate.m文件
