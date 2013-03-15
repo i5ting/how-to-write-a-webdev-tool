@@ -71,16 +71,12 @@
 -(NSString *)getRootDirectoryWithBeforeLevel:(int)blevel
 {
     NSString *current_dir = [NSString stringWithFormat:@"%s",__FILE__];
-    log_info(@"current_dir = %@",current_dir);
     return [self getDirectory:current_dir withBeforeLevel:blevel];
 }
 
 -(NSString *)getLogDirectory
 {
-    log_info(@"log dir = %@",[self getRootDirectoryWithBeforeLevel:CUR_FILE_TO_PROJECT_HOME_BEFORE_LEVEL]);
-    NSString *log_dir = [NSString stringWithFormat:@"%@/%@",[self getRootDirectoryWithBeforeLevel:CUR_FILE_TO_PROJECT_HOME_BEFORE_LEVEL],@"src/log/"];
-    log_info(@"log_dir = %@",log_dir);
-    return log_dir;
+    return [NSString stringWithFormat:@"%@/%@",[self getRootDirectoryWithBeforeLevel:CUR_FILE_TO_PROJECT_HOME_BEFORE_LEVEL],@"src/log/"];
 }
 
 -(NSString *)getDirectory:(NSString *)current_dir withBeforeLevel:(int)blevel
