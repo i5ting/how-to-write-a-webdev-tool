@@ -40,6 +40,11 @@
 让它看起和log4j的很像
 
 
+### 无入侵
+如果需要更新CocoaLumberjack版本，
+从https://github.com/robbiehanson/CocoaLumberjack/tree/master/Lumberjack下载，放到vendor中即可。
+
+
 ## 用法说明
 
 	
