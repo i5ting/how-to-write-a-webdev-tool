@@ -41,6 +41,10 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
  */
 @interface UIResponder(No320LogFileManager)
 
+/**
+ * 设置默认日志配置，如果需要，可以自行修改
+ *
+ */
 - (void)setNo320LogConfig;
 
 @end
