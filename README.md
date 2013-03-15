@@ -14,15 +14,10 @@
 
 ### 初始化
 
-- 获取依赖模块代码
-
-```shell
-	git submodule init && git submodule update
-```
-
+ 
 - 把依赖文件加到项目文件中
 
-把no320.ios.log/vendor/CocoaLumberjack里的文件夹加到项目文件中
+把no320.ios.log/文件夹加到项目文件中
 
 注意CocoaLumberjack默认是arc的，如果你的项目是非arc的，需要增加-fobjc-arc说明
 
