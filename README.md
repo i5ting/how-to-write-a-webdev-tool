@@ -71,6 +71,9 @@
 
 - 引入资源文件
 
+建议在prefix.pch里
+
+
 ```c
 	#import "No320LogFileManager.h"
 ```
@@ -88,7 +91,17 @@
 	}
 ```
 
+### 示例代码
 
+
+    log_info(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
+    log_warning(@"%@\n",NSStringFromSelector(_cmd));
+    log_fatal(@"%@\n",NSStringFromClass([self class]));
+    log_error(@"%@\n",[NSString stringWithUTF8String:__FILE__] );
+    log_debug(@"%@\n",[NSThread callStackSymbols]);
+
+
+是不是很简单?
 
 
 ## History
