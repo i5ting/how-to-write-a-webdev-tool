@@ -45,8 +45,6 @@
 #if TARGET_OS_IPHONE    
     NSString *logsDirectory = @"";
     return [self getLogDirectory];
-//    log_info(@"%@",logsDirectory);
-//    NSString *logsDirectory = NO320_LOG_DIR;
 #else
     //todo other platform
 	NSString *appName = [[NSProcessInfo processInfo] processName];
@@ -58,8 +56,6 @@
     
 	return logsDirectory;
 }
-
-
 
 /**
  * 如果想重新命名，可以覆盖此方法

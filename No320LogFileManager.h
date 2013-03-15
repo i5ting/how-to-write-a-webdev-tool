@@ -18,8 +18,6 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 #define CUR_FILE_TO_PROJECT_HOME_BEFORE_LEVEL 4
 
-#define NO320_LOG_DIR @"/Users/sang/work/git/rails-like-dir-example/src/log/"
-
 
 //#define DDLogError(frmt, ...)   LOG_OBJC_MAYBE(LOG_ASYNC_ERROR,   ddLogLevel, LOG_FLAG_ERROR,   0, frmt, ##__VA_ARGS__)
 //#define DDLogWarn(frmt, ...)    LOG_OBJC_MAYBE(LOG_ASYNC_WARN,    ddLogLevel, LOG_FLAG_WARN,    0, frmt, ##__VA_ARGS__)
