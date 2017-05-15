@@ -1,3 +1,4 @@
+![](5.Node.js模块开发.002.jpeg)
 ![](5.Node.js模块开发.003.jpeg)
 ![](5.Node.js模块开发.004.jpeg)
 ![](5.Node.js模块开发.005.jpeg)
